@@ -21,8 +21,9 @@ A Retrieval-Augmented Generation (RAG) application tailored for querying, analyz
 ├── rag_engine.py       # Core RAG retrieval, embedding, and generation logic
 ├── requirements.txt    # Project dependencies
 └── README.md           # Project documentation
-
+```
 🚀 Getting Started
+```text
 1. Prerequisites
 Python 3.9+ installed on your machine.
 API key for your chosen LLM and embedding provider (e.g., OpenAI).
@@ -51,12 +52,13 @@ Create or update your .env file in the root directory:
 
 Code snippet
 OPENAI_API_KEY=your_openai_api_key_here
-# Add other relevant environment variables (e.g., Pinecone/ChromaDB/Qdrant credentials)
+
+# Add other relevant environment variables (ChromaDB)
 💻 Usage
 Run the main application:
-
-Bash
 python app.py
+```
+
 🛠️ Tech Stack
 Language: Python
 
@@ -65,3 +67,4 @@ RAG Framework: LangChain / LlamaIndex
 Vector Store: Chroma (configure as needed)
 
 LLMs & Embeddings: OpenAI
+
